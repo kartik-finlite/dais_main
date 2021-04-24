@@ -1,0 +1,720 @@
+p.error-for-upload
+{
+	display:none;
+	color:red;
+	font-size:14px;
+}
+.icheck-primary label {
+    font-size: 14px;
+    margin-right: 15px;
+    margin-bottom:10px;
+}
+ label {
+    margin-bottom: 10px;
+}
+label.label-text {
+    margin: 10px 0px;
+}
+label.custom-file-label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.image.p-image img {
+    height: 2.1rem;
+    width:2.1rem;
+}
+.btn
+{
+	text-transform:uppercase;
+	padding:.375rem 2.5rem;
+}
+.bootstrap-timepicker-widget table td span.glyphicon.glyphicon-chevron-up { 
+     width: 20px;  
+     height: 20px;  
+     background-image: url('../images/angle-up.png');  
+     background-size: cover;  
+     background-repeat: no-repeat;  
+     display: block;  
+     margin: auto;  
+  }  
+ .bootstrap-timepicker-widget table td span.glyphicon.glyphicon-chevron-down {  
+     width: 20px;  
+     height: 20px;  
+     background-image: url('../images/angle-down.png');  
+     background-size: cover;  
+     background-repeat: no-repeat;  
+     display: block;  
+     margin: auto;  
+ } 
+/******************* start header css *****************/
+/* li.nav-item.dropdown {
+    display: none;
+} */
+i.fas.fa-power-off {
+    color: #dc3545;
+}
+
+/************* end header css *******************/
+
+/******************* start file upload css ***************/
+.pdf_bottom_box ul {
+    list-style: none;
+    margin:10px 0px;
+}
+
+.pdf_bottom_box ul li {float: left;margin-right: 10px;font-weight:600;}
+
+.pdf_bottom_box ul li img {
+    height: 50px;
+}
+img.delete-icon.view-icon {
+    height: 27px !important;
+}
+img.delete-icon {
+    height: 30px !important;
+}
+
+.pdf_bottom_box ul li:nth-child(1) {margin-left:-30px;}
+.pdf_bottom_box {
+    box-shadow: 1px 1px 5px #ddd;
+    height: 70px;
+    line-height: 70px;
+    width: 390px;
+}
+
+.pdf_bottom_box ul li:last-child {
+    float: right;
+    cursor: pointer;
+}
+.comment-list-box.approve-reject ul li a{
+	color:#000;
+}
+/******************* end file upload css ****************/
+/******************* start dashboard modal css ****************/
+.edit-btn a {
+    padding: 0.475rem 2.5rem;
+    background: #007bff;
+    color: #fff;
+    border-radius: 3px;
+}
+.modal-open .modal.modal-center {
+     align-items: center !important;
+}
+ .modal-open .modal.modal-center .modal-dialog {
+     flex-grow: 1;
+	 position: relative;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul.ks-cboxtags {
+    list-style: none;
+    padding: 0px;
+}
+ul.ks-cboxtags li{
+  display: inline;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+        padding: 8px;
+        font-weight:500 !important;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 10px;
+    width: 200px;}
+
+ul.ks-cboxtags li label::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 6px;
+    content: "\f067";
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::after {
+    content: "\f00c";
+    transform: rotate(0deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 2px solid #4caef0;
+    background-color: #0d79c1;
+    color: #fff;
+    font-weight: 500;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  border: 2px solid #4caef0;
+}
+.modal-body.modal-body-title {
+    background: #eee;
+    height: 350px;
+    overflow-y: auto;
+}
+
+.modal-body.modal-body-title h4 {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #303030;
+    border-bottom: 1px solid #acacac;
+}
+
+h5.modal-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #303030;
+}
+button.close span:focus {
+    outline: 0;
+}
+.modal-footer.modal-footer-btn
+{
+    justify-content: center;
+}
+.on-load-modal-header
+{
+    background-color:#eee;
+    border-bottom:1px solid #ddd;
+}
+
+#model_scrolling::-webkit-scrollbar-track{border-radius: 10px;background-color:#e3dfe0;}
+#model_scrolling::-webkit-scrollbar{width:5px;background-color:#868585;}
+#model_scrolling::-webkit-scrollbar-thumb{border-radius:10px;;background-color:#868585;}
+#model_scrolling{scrollbar-width: thin;scrollbar-color: #868585 #e3dfe0;}
+button.close:focus {
+    outline: 0;
+}
+/******************* end dashboard modal css ****************/
+
+/******************* start my profile css ******************/
+.accordion-head i{
+    font-size: 2.5em;
+    float: right;
+    font-size: 20px;
+    color:#000;
+}
+
+.accordion-head > .collapsed > i:before{
+    content: "\f107";
+}
+.accordion {
+    padding: 0px 20px;
+}
+
+h3.accordion-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+
+div#accordionBodyOne {
+    padding: 12px;
+}
+
+.head-title {
+    padding: 0 1.5rem;
+}
+
+.head-title h4 {
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+    font-size: 18px;
+    text-transform:uppercase;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 18px;
+}
+
+.list-title h5 {
+    font-weight: 600;
+    color: #727272;
+}
+
+.list-box {
+    padding: 15px;
+    background: #eee;
+}
+
+.list-left h6 {
+    font-size: 18px;
+    padding-top: 6px;
+    font-weight: 500;
+	color:#2e2e2e;
+}
+
+.list-button a {
+    color: #fff;
+    padding: 8px 25px;
+    background: #008000;
+	border-radius:3px;
+	margin-right:10px;
+}
+.subc-part
+{
+	background-color:#46bc46 !important;
+}
+.list-button a:hover{
+	color:#fff;
+}
+.list-button.my-profile-list {
+    margin: -20px 15px;
+}
+
+.bottom-list {
+    margin: 15px 0px 0px 0px;
+}
+.bottom-green-text p {
+    font-size: 16px;
+    color: #04b20f;
+}
+.list-caption p {
+    color: #04b20f;
+    font-style: italic;
+}
+
+.list-view {
+    box-shadow: 1px 1px 5px #ddd;
+    margin: 20px;
+}
+
+.list-right h3 {
+    font-weight: 600;
+    color: #555555;
+    font-size: 26px;
+}
+.profile-user-img
+{
+    height:100px;
+}
+/******************* end my profile css ******************/
+/******************* start event details css ******************/
+.event-details-top-box {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px #ddd;
+}
+.event-date-box.event-for-date {
+    margin: 5px;
+}
+.event-date-box
+{
+    margin:15px;
+    padding:10px;
+    box-shadow:1px 1px 5px #ddd;
+}
+.date h4 {
+    font-size: 19px;
+    font-weight:500;
+}
+
+.date-2 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #535353;
+}
+
+.arrival-time h4 {
+    font-size: 19px;
+    font-weight:500;
+}
+
+.time h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #535353;
+}
+.event-notes-box {
+    padding: 10px;
+    margin: 10px 0px;
+    height:140px;
+    overflow-y:auto;
+    background: #eee;
+}
+
+.event-notes h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.download-file ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.download-file ul li {
+    display: inline-block;
+}
+
+.download-file ul li img {
+    width: 50px;
+}
+
+li.download-image img {
+    width: 30px !important;
+}
+
+li.download-image {
+    float: right;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+li.pdf-image {
+    float: left;
+}
+
+.download-file ul li h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-transform:uppercase;
+}
+.download-file ul li p {
+    margin-bottom: 0;
+}
+li.pdf-image.for-form img {
+    opacity: 0.5;
+    filter: grayscale(1);
+}
+.download-file
+{
+    margin:10px 0px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 1px 1px 5px #ddd;
+}
+.max-lines {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-width: 185px;
+}
+.signup-event a {
+    padding: 10px 10px;
+    font-size: 18px;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    text-transform:uppercase;
+	cursor:pointer;
+}
+.signup-event a:hover{
+	color:#fff;
+}
+.modal-body.reason-body {
+    background: #eee;
+}
+.modal-content.signed-success-m {
+     width: 400px;
+     margin: auto;
+}
+
+.modal-body.signed-success {
+    padding: 40px 40px;
+    background: #060606;
+}
+
+.icon-box i {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background: #4caf50;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.success-caption h4 {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #fff;
+}
+/******************* end event details css ******************/
+/******************* start event details list **************/
+.multiple-accordion-box {
+    padding: 15px 10px;
+}
+
+.multiple-accordion-box h5 a {
+    color: #343a40;
+    font-weight: 600;
+    letter-spacing:1px;
+    font-size: 15px;
+}
+.multiple-accordion-box .card-body {
+    background: #fcfcfc;
+}
+.comment-list-box {
+    padding: 10px;
+    background: #c9e265;
+	margin:15px 0px;
+	box-shadow:1px 1px 5px #aeaeae;
+}
+
+.comment-list-box ul {
+    list-style: none;
+    padding: 0;
+	margin:0;
+}
+
+.comment-list-box ul li {
+    display: inline;
+}
+.comment-list-box ul li a {
+    font-size: 16px;
+    font-weight: 600;
+	letter-spacing:0.5px;
+    cursor: pointer;
+	transition:all 0.5s ease-in-out;
+}
+
+
+.comment-list-box ul li a i {height: 25px;width: 25px;border-radius: 50%;color:#fff;line-height: 25px;text-align: center;font-size: 13px;transition:all 0.5s ease-in-out;}
+
+a.comment-user-right i {
+    background: #4caf50;
+}
+
+a.comment-user-close i {
+    background: #f44336;
+}
+/*a.comment-user-right:hover i {
+    background: #fff;
+    color: #3fb436;
+}*/
+
+/*a.comment-user-close:hover i {
+    background: #fff;
+    color: #ff5757;
+}*/
+.comment-list-box.reject {
+    background: #ff5757;
+}
+.comment-list-box.reject ul li a {
+    color: #fff;
+}
+h4.reject-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.modal-body.reject-body {
+    background: #eee;
+}
+.modal-header.reject-header {
+    justify-content: center;
+}
+
+.modal-footer.reject-footer {
+    justify-content: center;
+}
+.comment-list-box.approve-reject {
+    background: #febd59;
+}
+.modal-dialog.reject-modal-dialog {max-width: 350px}
+.label-with-checkbox {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.comment-user-close {
+    opacity: 1;
+    margin-left: 10px;
+}
+.signup-event a i {
+    padding-left: 10px;
+}
+.comment-user-close:hover {
+    opacity: 1 !important;
+}
+.comment-with-number
+{
+	display:block;
+	margin:0;
+}
+.set-close
+{
+	margin-top:-35px;
+}
+.set-right
+{
+	margin-top:-35px;
+}
+/******************* end event details list ***************/
+
+@media only screen and (max-width:1024px)
+{
+	.m-pr-0
+	{
+		padding-right:0 !important;
+	}
+	.signup-event a{
+		font-size:12px !important;
+		padding:10px 5px;
+	}
+}
+
+
+@media only screen and (max-width:575px)
+{
+	.max-lines
+	{
+		width:130px;
+	}
+	.list-button a 
+	{
+		display:block;
+		margin:5px 0px;
+	}
+	.multiple-accordion-box
+	{
+		padding:15px 0px;
+	}
+    .mobile-float-none
+    {
+        float: none!important;
+    }
+    .pdf_bottom_box
+    {
+        width:100%;
+    }
+    .pdf_bottom_box ul li:nth-child(1)
+    {
+        padding-right:0;
+    }
+    ul.ks-cboxtags
+    {
+        text-align: center;
+    }
+    .download-file ul li img {
+    width: 40px;
+}
+.download-file ul li h5
+{
+    font-size:14px;
+}
+li.download-image img {
+    width: 20px !important;
+}
+.download-file
+{
+    margin:0;
+}
+.list-caption {
+    margin-top: 20px;
+}
+.mobile-text-left
+{
+    text-align:left !important;
+}
+
+.signup-event a {
+    font-size: 13px;
+}
+.event-date-box
+{
+    margin:5px 0px;
+}
+.mobile-ml-0
+{
+    margin-left:0 !important;
+}
+#reject-modal
+{
+	padding-right:0 !important;
+}
+.multiple-accordion-box .card-header
+{
+  padding:0.75rem 0.50rem;	
+}
+.multiple-accordion-box .card-body
+{
+  padding:0.75rem 0.50rem;	
+}
+#myFile {
+    width: 100%;
+}
+.list-view
+{
+	margin:0;
+}
+.mobile-lest-caption
+{
+	margin-top:35px;
+	margin-left:16px;
+}
+.head-title.mobile-head-title h4 {
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+form.accordion .card-header {
+    padding: 0.50rem 0.50rem;
+}
+
+h3.accordion-title {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.modal-content.signed-success-m
+{
+	width:100%;
+}
+.modal-body.signed-success
+{
+	padding:40px 30px;
+}
+.modal-open .modal
+{
+	padding:10px !important;
+}
+
+}
+@media only screen and (max-width:320px)
+{
+	.max-lines
+	{
+		width:95px;
+	}
+}

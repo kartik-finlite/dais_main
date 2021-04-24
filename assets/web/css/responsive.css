@@ -1,0 +1,848 @@
+
+
+/****************************   1920 media   *********************************/
+
+@media screen and (min-device-width: 1500px) and (max-device-width: 1920px) { 
+ 
+.container {max-width:1880px !important;}
+.display-3 {font-size: 100px;color: #fce100;letter-spacing: 3px;font-family: 'AlfaSlabOne';line-height: 100px;margin-top: 25px;}
+p.lead {font-size: 30px;}
+#videobanner {position: relative;background-color: black;height: 75vh!important;min-height: 25rem;width: 100%;overflow: hidden;}
+.rightblackpart {padding: 160px 50px;background-color: #000;}
+.leftcontent {float: left;width: 40%;background-color: #9196a3;padding: 225px 25px 225px 50px;}
+#artistvideobanner .display-3 {font-size: 100px;color: #fce100;letter-spacing: 3px;font-family: 'AlfaSlabOne';line-height: 105px;margin-top: 40px;}
+.artistimg img {width: 100%;}
+.rightartist {float: left;width: 50%;padding: 0 0 300px 0;}
+.yvotecontent h3 {color: #FCE100;font-size: 100px;text-transform: uppercase;line-height: 1;letter-spacing: 3px;font-family: 'AlfaSlabOne';}
+.yvotecontent p {color: #fff;font-size: 25px;margin: 0 0;}
+section#videobanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 900px!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+}
+
+
+/****************************   1360 media   *********************************/
+@media only screen and (max-width: 1366px) {
+.container {max-width:1280px !important;}
+
+}
+
+
+/****************************   1244 media   *********************************/
+
+@media only screen and (max-width: 1244px) {
+ul.navbar-nav.social{ display: inline-block;
+    vertical-align: top;
+    line-height: 4.5;}
+#myButton{     display: block;
+    width: 98%;}
+form{    display: inline-block;
+    width: 40%;}	
+ul.social li {
+    padding: 1.5rem 0rem;
+    float: left;
+}
+nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark {
+    padding: 0 10px;
+}
+
+
+
+
+}
+
+	
+/****************************   1024 media   *********************************/
+
+@media only screen and (max-width: 1024px) {
+	
+button.donate {background-color: #69121B;color: #fff;border-radius: 0;text-transform: uppercase;font-weight: bold;padding: 17px 35px;}
+.rightblackpart p {color: #fff;font-size: 20px;margin: 29px 0px;}
+.joincontent h3 {color: #FCE100;font-size: 85px;font-weight: bold;}
+.yvotecontent {position: absolute;top: 10%;width: 65%;left: 5%;}
+.yvotecontentinner {position: absolute;top: 10%;width: 65%;left: 5%;}
+.allbtn button.givebtn{margin-bottom:20px;}
+#giverate {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 50px 15px;
+}
+.rightblackpart {
+    padding: 90px 50px;
+    background-color: #000;
+}
+.historycontent {
+    position: absolute;
+    top: 15%;
+    width: 55%;
+    right: 3%;
+}
+.artistname {
+    background-color: #003471;
+    padding: 50px 30px;
+    width: 80%;
+    position: absolute;
+    top: -160%;
+}
+
+
+
+
+
+}
+
+
+
+
+/****************************   991 media   *********************************/
+
+@media only screen and (max-width: 991px) {
+
+.contactbtn button.ctn {background-color: #69121A;color: #fff;border-radius: 0;text-transform: uppercase;font-weight: bold;padding: 10px 20px;border: none;font-size: 16px;}
+.allbtn button.givebtn {border: none;background-color: #003471;color: #fff;font-size: 19px;font-weight: 600;border-radius: 0;width: 130px;height: 50px;margin-bottom: 20px;}
+.historycontent h3 {color: #FCE100;font-size: 60px;font-weight: bold;text-transform: uppercase;line-height: 1;}
+#historybanner {float: left;width: 100%;background-image: url(../images/Fannie_Resize.png);height: 400px;background-size: cover;background-repeat: no-repeat;background-position: center;position: relative;}
+.textimg {float: left;width: 100%;background-color: #c3cfe6;padding: 10px;margin-bottom: 30px;}
+.yvotecontent h3 {color: #FCE100;font-size: 65px;font-weight: bold;text-transform: uppercase;line-height: 1;}
+#whywevote {float: left;width: 100%;background-image: url(../images/KneeOffMyNeck.png);height: 400px;background-size: cover;background-repeat: no-repeat;background-position: center;position: relative;}
+.historycontent {position: absolute;top: 10%;width: 55%;right: 3%;}
+
+}
+
+
+/****************************   960 media   *********************************/
+
+@media only screen and (max-width: 960px) {
+.leftjoinpart {
+    float: left;
+    width: 100%;
+}
+.rightjoinpart {
+    float: left;
+    width: 100%;
+}
+.voteinnerleft {
+    float: left;
+    width: 90%;
+    background-color: #c3cfe6;
+    padding: 20px;
+    position: absolute;
+    top: -15%;
+    left: 0%;
+}
+#blog {
+    float: left;
+    width: 100%;
+    margin-top: 0%;
+    z-index: 9999;
+    position: relative;
+    margin: 50px 0px;
+}
+
+#artistvideobanner {
+    position: relative;
+    background-color: black;
+    height: 35vh!important;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+section#videobanner .w-50 {
+    width: 70% !important;
+}
+.content {
+    position: absolute;
+    top: 29%;
+    width: 90%;
+}
+.content2 {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+}
+.artistname {
+    background-color: #003471;
+    padding: 50px 30px;
+    width: 90%;
+    position: absolute;
+    top: -160%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/****************************   767 media   *********************************/
+
+
+@media only screen and (max-width: 767px) {
+
+.footerdiv {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+p.lead.mb-0 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.display-3 {
+    font-size: 50px;
+   
+    color:#FCE100;line-height: 50px;
+}
+
+
+.lefttext {
+    float: left;
+    width: 100%;
+    background-color: #000;
+    height: 350px;
+    text-align: center;
+    padding: 60px 50px;
+}
+.content3 {
+    position: absolute;
+    top: 15%;
+    width: 37%;
+    right: 3%;
+}
+.bannertext {
+    float: left;
+    width: 100%;
+    background-color: #000;
+}
+.bannerimg {
+    float: left;
+    width: 100%;
+}
+.footerdiv:last-child {
+    margin-bottom: 0px;
+}
+.leftcontent {
+    float: left;
+    width: 100%;
+    background-color: #9196a3;
+    padding: 100px 25px 100px 50px;
+}
+.mailbox {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 50px;
+}
+section#historyresorce .text-center img {
+    margin-bottom: 40px;
+}
+.yvotecontentinner {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+}
+.voteinnerleft {
+    float: left;
+    width: 90%;
+    background-color: #c3cfe6;
+    padding: 20px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin-bottom: 40px;
+}
+#contactform .form-control {
+    margin-bottom: 20px;
+}
+.leftartist {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.rightartist {
+    float: left;
+    width: 100%;
+    padding: 0 0 100px 50px;
+}
+.roundart {
+    float: left;
+    width: 100%;
+    margin: 50px 0px;
+}
+.roundart.roundpos {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.artistname {
+    background-color: #003471;
+    padding: 25px 30px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    top: 45%;
+    z-index: 9999999 !important;
+}
+section#videobanner .w-50 {
+    width: 90% !important;
+}
+.donatecontant h2 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    font-size: 80px;
+    margin: 20px 0 0 0;
+}
+.donatecontant {
+    width: 90%;
+    float: left;
+}
+.ladies {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Fannie-Lou-Hamer-1964.png);
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+button.clrbtn {
+    padding: 15px 65px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    border: none;
+    margin-bottom: 20px;
+}
+span.move {
+    font-size: 70px;
+}
+#historyresorce h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.logobtn img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.yvotecontent {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/***************************   640 media   *********************************/
+
+
+@media only screen and (max-width: 640px) {
+
+.historycontent {
+    position: absolute;
+    top: 5%;
+    width: 60%;
+    right: 5%;
+}
+.yvotecontent h3 {
+    color: #FCE100;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#contacttext h2 {
+    color: #c3cfe6;
+    text-transform: uppercase;
+    font-size: 51px;
+}
+.artistname {
+    display: none;
+}
+
+#artistindividual {
+    position: relative;
+    background-color: black;
+    height: 40vh!important;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.display-3 {
+    font-size: 50px;
+    color: #fce100;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    line-height: 50px;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+.content2 {
+    position: absolute;
+    top: 8%;
+    width: 90%;
+}
+.ld-content {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: auto;
+}
+.content3 {
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    right: 3%;
+}
+section#videobanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.historycontent {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    right: 5%;
+}
+form {
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+
+}
+
+
+
+
+/****************************   560 media   *********************************/
+
+
+@media only screen and (max-width: 560px) {
+
+
+.content {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+.content2 {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+}
+.ld-content {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 60%;
+}
+.mailimg {
+    margin-bottom: 30px;
+    text-align: center;
+}
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+.joincontent h3 {
+    color: #FCE100;
+    font-size: 50px;
+    font-weight: bold;
+}
+span.move {
+    font-size: 50px;
+}
+
+
+
+}
+
+/****************************   520 media   *********************************/
+
+
+@media only screen and (max-width: 520px) {
+
+.joincontent h3 {
+    color: #FCE100;
+    font-size: 50px;
+    font-weight: bold;
+}
+.rightartist {
+    float: left;
+    width: 100%;
+    padding: 0 0 100px 25px;
+}
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+form {
+    display: block;
+    width: 100%;
+}
+
+
+
+}
+
+
+/****************************   500 media   *********************************/
+
+
+@media only screen and (max-width: 500px) {
+
+
+section#videobanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.donatecontant {
+    width: 100%;
+    float: left;
+}
+.donatecontant h2{font-size: 60px;}
+.whowecontent h3 {
+    color: #FCE100;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: 'AlfaSlabOne';
+}
+
+
+
+
+}
+
+/****************************   477 media   *********************************/
+
+
+@media only screen and (max-width: 477px) {
+
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+section#videobanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+
+
+
+
+}
+
+
+/****************************   420 media   *********************************/
+
+
+@media only screen and (max-width: 420px) {
+
+.leftjoincontent {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.historycontent h3 {
+    color: #FCE100;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.yvotecontent {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+}
+.yvotecontentinner h3 {
+    color: #FCE100;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#whywevoteinner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Fannie-Lou-Hamer-1.png);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.whowecontent h3 {
+    color: #FCE100;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#whowearebanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.ld-content {
+    position: absolute;
+    top: 20%;
+    width: 90%;
+    left: 5%;
+}
+.content3 {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    right: 3%;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+button.btn.unitedbtn {
+    width: 300px;
+    padding: 20px 0;
+}
+.yvotecontent {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    left: 5%;
+}
+.yvotecontent h3 {
+    color: #FCE100;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/****************************   1920 media   *********************************/
+
+@media screen and (min-device-width: 361px) and (max-device-width: 400px) { 
+ .bannertext h3 {
+    color: #FCE100;
+    font-size: 50px;
+    padding: 55px 20px 50px 30px;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+span.move {
+    font-size: 40px;
+}
+.leftjoincontent button.btn.joinbtn {
+    background-color: #003471;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px;
+    width: 275px;
+    height: 55px;
+    margin: 30px;
+}
+
+ 
+ 
+}
+
+
+
+
+/****************************   360 media   *********************************/
+
+
+@media only screen and (max-width: 360px) {
+.leftjoincontent button.btn.joinbtn {
+    background-color: #003471;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px;
+    width: 260px;
+    height: 55px;
+    margin: 30px;
+}
+#whywevote {
+    float: left;
+    width: 100%;
+    background-image: url(../images/KneeOffMyNeck.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+.bannertext h3 {
+    color: #FCE100;
+    font-size: 50px;
+    padding: 55px 30px 49px 40px;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+span.move {
+    font-size: 30px;
+}
+.joincontent h3 {
+    color: #FCE100;
+    font-size: 30px;
+    font-weight: bold;
+}
+button.btn.unitedbtn {
+    width: 300px;
+    padding: 20px 0;
+}
+
+
+}
+
+
+/****************************   320 media   *********************************/
+
+
+@media only screen and (max-width: 320px) {
+	
+section#videobanner .w-50 {
+    width: 100% !important;
+}
+.display-3 {
+    font-size: 40px;
+    color: #fce100;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    line-height: 50px;    margin-top: 5px;
+}
+section#videobanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/Header_1.png);
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.content h3 {
+    color: #FCE100;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+.text-center.shop h3 {
+    color: #69121B;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+button.btn.unitedbtn {
+    width: 270px;
+    padding: 20px 0;
+}
+.leftjoincontent {
+    padding: 50px 5px;
+    text-align: center;
+}
+.leftjoincontent button.btn.joinbtn {
+    background-color: #003471;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px;
+    width: 225px;
+    height: 80px;
+    margin: 30px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+}

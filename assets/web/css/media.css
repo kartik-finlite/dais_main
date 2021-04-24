@@ -1,0 +1,84 @@
+
+
+#mediabanner {
+    float: left;
+    width: 100%;
+    /* background-image: url(../images/Header_2.png); */
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: #000;
+}
+	
+	
+button.mediabtn {
+    border: 1px solid #c3cfe6;
+    background-color: #69121b;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+span.vote {
+    color: #c3cfe6;
+}
+#blog {
+    float: left;
+    width: 100%;
+    margin-top: -3%;
+    z-index: 9999;
+    position: relative;
+}
+.blog {
+    float: left;
+    width: 100%;border:1px solid #95989a
+}
+.box {
+    background-color: #7fc4fd;
+    height: 175px;
+    width: 100%;border-bottom:1px solid #95989a
+}
+
+.boxcontent {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.boxcontent h5 {
+    color: #2699fb;
+    font-size: 20px;
+}
+
+.heart i.fa.fa-heart {
+    color: #2699fb;
+}
+.heart{color: #2699fb;}
+.num {
+    color:#2699fb;
+}
+.num i.fa.fa-minus {
+    color: #fff;font-size: 12px;
+}
+span.minusback {
+    background-color: #7fc4fd;
+    padding: 0 5px;
+}
+p.share {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;color:#2699fb;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+

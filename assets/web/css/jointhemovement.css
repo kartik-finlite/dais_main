@@ -1,0 +1,99 @@
+
+/**********************   joinbanner   ******************************/
+
+#joinbanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/join-the-movement.webp);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.joincontent {
+    position: absolute;
+    top: 43%;
+    width: auto;
+}
+.joincontent h3 {
+    color: #FCE100;
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-family: 'AlfaSlabOne';
+    line-height: 81px;
+}
+span.spanclr {
+    color: #c3cfe6;
+}
+span.move {
+    font-size: 85px;
+}
+
+
+/*******************   bottompart  css   *************************/
+
+#bottompart{ float: left;width: 100%;position: relative;}
+.leftjoinpart p {
+    margin: 0;
+    font-size: 20px;
+    color: #003471;
+}
+.leftjoinpart {
+    float: left;
+    width: 50%;
+}
+.leftjoincontent button.btn.joinbtn {
+    background-color: #003471;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px;
+    width: 300px;
+    height: 55px;margin: 30px;
+}
+.leftjoincontent button.btn.joinbtn.clrdbtn {
+    background-color: #69121a;
+}
+.leftjoincontent {
+    padding: 50px;
+}
+.leftjoincontent {
+    padding: 50px;
+    text-align: center;
+}
+.rightjoinpart{float: left;width: 50%;}
+.ctapart {background-color: #003471;text-align: right;padding: 50px;}
+.ctapart h2 {color: #fff;font-size: 50px;letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';}
+
+.ctapart p {color: #fff;font-size: 20px;}
+
+
+.rtctn button.cta {
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #c3cfe6;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rightblackpart{padding:55px 50px;background-color:#000;}
+
+.rightblackpart p {color: #fff;font-size: 20px;margin:50px 0px;}
+
+.rightblackpart h2{color: #fff;font-size: 50px;letter-spacing: 3px;font-family: 'AlfaSlabOne';}
+
+.rightlogo img {width: 200px;}
+
+.rightlogo{margin-top:50px;}
+
+
+
+
+
+
+
+	
+

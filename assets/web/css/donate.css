@@ -1,0 +1,303 @@
+
+#donatebanner{float: left;width: 100%;background-image: url(../images/donate-banner.webp);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;position: relative;}
+.donatecontant {
+    width: 40%;
+    float: left;
+}
+.donatecontant h2 {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    font-size: 90px;
+    margin: 0px 0 0 0;
+}
+.donatecontant p {
+    margin: 40px 0 0 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+/******** part2 ***********/
+#giverate {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 50px 0px
+}
+.donatecontent {
+    width: 100%;
+    float: left;
+}
+.allbtn {
+    float: left;
+    width: 100%;
+}
+
+
+.allbtn button.givebtn {
+    border: none;
+    background-color: #003471;
+    /* padding: 15px 45px; */
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 0;
+    width: 170px;
+    height: 70px;
+}
+.donatecontent h2 {
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    font-size: 35px;
+    color: #707070;
+    margin: 0 0 20px 0;
+}
+.allbtn button.givebtn input {
+    width: 80px;
+    margin: 0 10px;
+}
+
+/*
+button.radiobtn {
+    position: relative;
+    background-color: #c3cfe6;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+button.radiobtn input[type="radio"] {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+button.radiobtn input[type="radio"] ~ .checkmark button.radiobtn {
+    background-color: #69121b;
+}
+*/
+
+
+/******** checked radio css *********/
+
+.radioheader .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radioheader .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radioheader .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radioheader .container input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioheader .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radioheader .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioheader .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioheader .container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+/*********   *******/
+
+#mailbox{float:left;width:100%;}
+button.headingbtn {
+    background-color: #003471;
+    border-radius: 0;
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 40px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.leftcontent {
+    float: left;
+    width: 40%;
+    background-color: #9196a3;
+    padding: 50px 0;
+}
+
+.mailbox{
+    float: left;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px 50px;
+}
+.leftcontent {
+    float: left;
+    width: 40%;
+    background-color: #9196a3;
+    padding:131px 25px 130px 50px;
+}
+.heading h3 {
+    color: #fff;
+   letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.heading p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.mailbox h3 {
+    color: #003471;
+    letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    font-size: 35px;
+    margin: 0 0 20px 0;
+}
+.mailimg {
+    margin-bottom: 30px;
+}
+.mailimg img {
+   
+}
+.radioheader h2 {
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    font-size: 34px;
+    color: #707070;
+    margin: 0 0 20px 0;
+}
+button.yesbtn {
+    background-color: #c3cfe6;
+}
+button.nobtn {
+    background-color: #69121b;
+}
+button.clrbtn {
+    padding: 15px 65px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    border: none;
+}
+
+/*************** tabing css start   ***********************/
+
+
+section#tabs {
+    float: left;
+    width: 100%;
+    background-color: #c3cfe6;
+}
+
+
+
+.project-tab {
+    padding: 10%;
+  
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+
+/*************** tabing css end   ***********************/
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+

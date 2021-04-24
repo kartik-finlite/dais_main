@@ -1,0 +1,148 @@
+
+
+/***********************     video banner     ***********************/
+
+
+section#artistvideobanner {
+    float: left;
+    width: 100%; background-image: url(../images/Design1.webp);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+
+span.clr {
+    color: #c3cfe6;
+}
+
+
+/*
+#artistvideobanner{
+  position: relative;
+  background-color: black;
+  height: 50vh!important;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#artistvideobanner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#artistvideobanner .container {
+  position: relative;
+  z-index: 2;
+}
+
+#artistvideobanner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}*/
+
+/*.display-3 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fce100;
+}*/
+#artistvideobanner .display-3 {
+    font-size: 75px;
+    color: #fce100;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    line-height: 85px;
+    margin-top: 40px;
+}
+
+
+
+
+@media (pointer: coarse) and (hover: none) {
+  #artistvideobanner {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  
+}
+
+
+#artist{float:left;width:100%;}
+.leftartist {float: left;width: 50%;}
+.artistimg {
+    float: left;
+    width: 29%;
+}
+
+.rightartist {
+    float: left;
+    width: 50%;
+    padding: 0 0 100px 0;
+}
+p.bluefont {
+    color: #003471;
+    font-size: 20px;
+    margin: 50px 0;
+}
+button.doublecheck {
+    border: none;
+    background-color: #003471;
+    /* padding: 5px 39px; */
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+    width: 260px;
+    height: 65px;
+}
+button.ivote {
+    border: none;
+    background-color: #69121b;
+    /* padding: 15px 15px; */
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 18px;
+    height: 65px;
+    width: 260px;
+}
+h3.leftarthead {
+    letter-spacing: 1px;
+    font-family: 'AlfaSlabOne';
+    color: #003471;
+    font-size: 50px;
+    margin: 50px 0px;
+}
+p.grayfont {
+    color: #707070;
+    font-size: 16px;
+    margin: 50px 0;
+}
+button.btn.register.artist {
+    font-size: 25px;
+    padding: 10px 40px;
+}
+
+
+
+

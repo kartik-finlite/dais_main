@@ -1,0 +1,181 @@
+
+
+/***********************     video banner     ***********************/
+
+
+
+section#artistindividual {
+    float: left;
+    width: 100%; background-image: url(../images/Header_7.webp);
+    height: 800px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+    
+}
+
+
+
+
+span.clr {
+    color: #c3cfe6;
+}
+
+
+#artistindividual{
+  position: relative;
+  background-color: black;
+  height: 50vh!important;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#artistindividual video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#artistindividual .container {
+  position: relative;
+  z-index: 2;
+}
+
+#artistindividual .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/*.display-3 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fce100;
+}*/
+#artistindividual .display-3 {
+    font-size: 75px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    line-height: 75px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+
+
+
+
+@media (pointer: coarse) and (hover: none) {
+  #artistindividual {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  
+}
+
+
+h1.artname {
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+    font-size: 50px;
+}
+p.artistpara{color: #fff;font-size: 18px;}
+.artistname {
+    background-color: #003471;
+    padding: 50px 40px;
+    width: 80%;
+    position: absolute;
+    top: -200%;
+    left: 10%;
+}
+
+#artistbottom{float: left;width: 100%;background-color:#69121A;padding:50px 0;position: relative;}
+
+#artistbottom2{float: left;width: 100%;position:relative;}
+
+.artistdetail{float: left;width: 100%;}
+
+.roundbox {
+    background-color: #c3cfe6;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 1px solid #707070;
+    margin: 0 auto;
+}
+
+.bothround{float: left;width: 100%;}
+
+.artistdetail h4 {
+    color: #707070;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px 0px;
+}
+
+.artistdetail p{color: #707070;
+    font-size: 18px;}
+.roundart {
+    float: left;
+    width:50%;margin: 50px 0px;
+}
+
+.roundart.roundpos {
+    margin: 0;
+    margin-top: -10%;
+}
+
+button.action {
+    background-color: #003471;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 50px;
+    margin: 30px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.takebutton {
+    text-align: center;
+}
+
+.artistdetail.text-center.artpos {
+    position: absolute;
+    top: -25%;
+    left: -15%;
+}
+.artistdetail.text-center.part1 {
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

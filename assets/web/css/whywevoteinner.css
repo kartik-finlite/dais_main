@@ -1,0 +1,89 @@
+
+
+#whywevoteinner{
+    float: left;
+    width: 100%;
+    background-image: url(../images/Fannie-Lou-Hamer-1.webp);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.yvotecontentinner{
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left:5%;
+    }
+	
+.yvotecontentinner h3{
+    color: #FCE100;
+    font-size: 85px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+span.spanclr {
+    color: #c3cfe6;
+}
+
+#voteinner{float:left;width:100%;padding:50px 0px;position: relative;}
+
+.voteinnerright h2{
+    color: #69121b;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    font-family: 'AlfaSlabOne';
+}
+.voteinnerright p{color: #707070;font-size: 18px;}
+
+.voteinnerleft h5{
+    font-size: 18px;
+    color: #003471;
+    font-weight: 500;
+    }	
+.voteinnerleft img{
+    margin-top: 50%;
+}
+.voteinnerleft {
+    float: left;
+    width: 90%;
+    background-color: #c3cfe6;
+    padding: 20px;
+    position: absolute;
+    top: -25%;
+    left: 0%;
+    }	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,95 @@
+
+
+/**********************   joinbanner   ******************************/
+
+#historybanner {
+    float: left;
+    width: 100%;
+    background-image: url(../images/history.webp);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.historycontent {
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    right: 3%;
+}
+
+.historycontent h3 {
+    color: #FCE100;
+    font-size: 80px;
+   letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    text-transform: uppercase;line-height: 1;
+}
+span.spanclr {
+    color: #c3cfe6;
+}
+.historycontent p {color: #fff;font-size: 18px;margin: 0 0;}
+
+
+/***************  *************************/
+#videopart{float:left;width:100%;background-color: #003471;padding: 50px 0px;}
+
+#videopart h2 {
+    color: #fff;
+    letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#videopart .iframevideo {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#videopart .iframevideo iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+/******************  **********************/
+#videobottom{float: left;width: 100%;padding:50px 0px;}
+.goesheading h2 {
+    color: #69121b;
+    letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    font-size: 50px;
+    line-height:50px;
+}
+.votertext p {
+    color: #707070;
+    font-size: 18px;
+}
+.logobtn img {
+    width: 200px;
+}
+
+
+/****************** resorce **********************/
+
+#historyresorce{float: left;width: 100%;background-color: #c3cfe6;padding:50px 0px;}
+
+#historyresorce h2{
+color: #003471;
+   letter-spacing: 3px;font-family: 'AlfaSlabOne';
+    font-size: 35px;
+margin: 0 0 20px 0;}
+
+.logobtn {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
